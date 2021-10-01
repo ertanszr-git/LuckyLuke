@@ -19,6 +19,7 @@ print("""                        v2.0
        Coded by Rotherda. Please use only
        educational purpose. Not use illegally.
                  github.com/rotherda
+                 twitter.com/rotherda
        ----------------------------------------- """)
 print(Style.RESET_ALL)
 print(Fore.YELLOW)
