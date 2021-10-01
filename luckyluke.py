@@ -9,7 +9,9 @@ import colorama
 import random
 import string
 from colorama import Fore, Back, Style, init
+colorama.init()
 os.system("figlet Lucky Luke")
+print(Fore.RED)
 print("""
                         v2.0
       _________________________________________
