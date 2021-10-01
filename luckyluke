@@ -1,3 +1,3 @@
 cd /usr/share/
-cd luckyluke 
+cd Lucky-Luke-v2.0 
 python3 luckyluke.py
