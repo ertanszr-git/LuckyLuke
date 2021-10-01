@@ -57,55 +57,56 @@ print(Style.RESET_ALL)
 print(Fore.YELLOW)
 print("""
 
-=> Usage :                           |
-- help                               |
-- nmap                               |
-- dirb                               |
-- dmitry (scan)                      |
-- weevely (upload file tool)         |
-- xss (payload with python)          |     
-- sql (sqlmap)                       |
-- nikto                              |
-- wpscan                             |
-- urlcrazy                           |
-- ssh (brute force)                  |
-- ftp (brute force)                  |
-- md5crack                           |
-- iptrace (ip tracer , ip info)      |
-- md5gen (md5 generator)             |
-- whois                              |
-- subdomain                          |
-- vsftpd (exploit)                   |
-- synack (py syn-ack flood)          |
-- ddos (python ddos flood)           |
-- clear (clear terminal)             |
+=> Usage :                                        |
+- List Commands => help                           |
+- The Network Mapper => nmap                      |
+- Web Content Scanner => dirb                     |
+- Deepmagic Information Gathering Tool => dmitry  |
+- Weaponized Web Shell => weevely                 |
+- Cross Side Scripting => xss                     |
+- SQL Map => sql                                  |
+- Web Server Scanner => nikto                     |
+- Wordpress Scanner => wpscan                     |
+- URL Crazy => urlcrazy                           |
+- SSH Brute Forcer => ssh                         |
+- FTP Brute Forcer => ftp                         |
+- MD5 Cracker => md5crack                         |
+- IP Tracer => iptrace                            |
+- MD5 Generator => md5gen                         |
+- Domain Identificator => whois                   |
+- Subdomain Scanner => subdomain                  |
+- exploit => vsftpd                               |
+- Python SYN-ACK Flood => synack                  |
+- Python DDOS Flood => ddos                       |
+- Clear Terminal => clear                         |
 """)
 while True :
       veri = input("Choose Option => ")
       if veri == "help": 
             os.system("figlet Lucky Luke")
             print(""" 
-- help                               |
-- nmap                               |
-- dirb                               |
-- dmitry (scan)                      |
-- weevely (upload file tool)         | 
-- xss (payload with python)          |     
-- sql (sqlmap)                       |
-- nikto                              |
-- wpscan                             |
-- urlcrazy                           |
-- ssh (brute force)                  |
-- ftp (brute force)                  |
-- md5crack                           |
-- iptrace (ip tracer , ip info)      |
-- md5gen (md5 generator)             |
-- whois                              |
-- subdomain                          |
-- vsftpd (exploit)                   |
-- synack (py syn-ack flood)          |
-- ddos (python ddos flood)           |
-- clear (clear terminal)             |
+=> Usage :                                        |
+- List Commands => help                           |
+- The Network Mapper => nmap                      |
+- Web Content Scanner => dirb                     |
+- Deepmagic Information Gathering Tool => dmitry  |
+- Weaponized Web Shell => weevely                 |
+- Cross Side Scripting => xss                     |
+- SQL Map => sql                                  |
+- Web Server Scanner => nikto                     |
+- Wordpress Scanner => wpscan                     |
+- URL Crazy => urlcrazy                           |
+- SSH Brute Forcer => ssh                         |
+- FTP Brute Forcer => ftp                         |
+- MD5 Cracker => md5crack                         |
+- IP Tracer => iptrace                            |
+- MD5 Generator => md5gen                         |
+- Domain Identificator => whois                   |
+- Subdomain Scanner => subdomain                  |
+- exploit => vsftpd                               |
+- Python SYN-ACK Flood => synack                  |
+- Python DDOS Flood => ddos                       |
+- Clear Terminal => clear                         |
 
 """)
       if veri == "nmap":
