@@ -275,31 +275,31 @@ while True :
             secimWPScan = input("Choose scan type :  ")
             wpscanUrl = input("Enter url : ")
             if secimWPScan == "1" : 
-                  os.system("wpscan -url " + wpscanUrl)
+                  os.system("wpscan --url " + wpscanUrl)
 
             elif secimWPScan == "2" : 
-                  os.system("wpscan -url " + wpscanUrl + " --enumerate vp")
+                  os.system("wpscan --url " + wpscanUrl + " --enumerate vp")
 
             elif secimWPScan == "3" : 
-                  os.system("wpscan -url " + wpscanUrl + " --enumerate ap")
+                  os.system("wpscan --url " + wpscanUrl + " --enumerate ap")
 
             elif secimWPScan == "4" : 
-                  os.system("wpscan -url " + wpscanUrl + " --enumerate p")
+                  os.system("wpscan --url " + wpscanUrl + " --enumerate p")
 
             elif secimWPScan == "5" : 
-                  os.system("wpscan -url " + wpscanUrl + " --enumerate vt")  
+                  os.system("wpscan --url " + wpscanUrl + " --enumerate vt")  
 
             elif secimWPScan == "6" : 
-                  os.system("wpscan -url " + wpscanUrl + " --enumerate at")
+                  os.system("wpscan --url " + wpscanUrl + " --enumerate at")
 
             elif secimWPScan == "7" : 
-                  os.system("wpscan -url " + wpscanUrl + " --enumerate t")
+                  os.system("wpscan --url " + wpscanUrl + " --enumerate t")
 
             elif secimWPScan == "8" : 
-                  os.system("wpscan -url " + wpscanUrl + " --enumerate cb")
+                  os.system("wpscan --url " + wpscanUrl + " --enumerate cb")
 
             elif secimWPScan == "9" : 
-                  os.system("wpscan -url " + wpscanUrl + " --enumerate dbe")
+                  os.system("wpscan --url " + wpscanUrl + " --enumerate dbe")
 
             else :
                   input("You Entered Wrong Choice.")
