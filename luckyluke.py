@@ -251,7 +251,7 @@ while True :
                   os.system("nikto -list-plugins -host " + ipNikto + " " + niktoDosyayolu)
 
             elif secimNikto == "5" :
-                  portNikto = input("Bir port belirtiniz : ")
+                  portNikto = input("Enter a port : ")
                   os.system("nikto -host "+ ipNikto + " -port " + portNikto + " " + niktoDosyayolu)
 
             else:
