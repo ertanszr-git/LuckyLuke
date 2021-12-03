@@ -1,8 +1,25 @@
-# Lucky Luke Helper Tool v2.0
-<h3><i>
- Usage : <br/>
- -python3 install.py <br/>
- -sudo bash exe.sh <br/>
- -luckyluke
- 
- </h3></i>
+# LuckyLuke
+
+LuckyLuke is a script for scanning systems or websites and finding vulnerabilities very easy.
+
+## Installation
+
+You have to use Debian based distributions for this script.
+
+```bash
+python3 install.py
+sudo bash exe.sh
+```
+
+## Usage
+
+```bash
+luckyluke
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
