@@ -16,10 +16,10 @@ print(Style.RESET_ALL)
 print(Fore.RED)
 print("""                        v2.0
       _________________________________________
-       Coded by Rotherda. Please use only
+       Coded by ertanszr. Please use only
        educational purpose. Not use illegally.
-                 github.com/rotherda
-                 twitter.com/rotherda
+                 github.com/ertanszr
+                 twitter.com/ertanszr
        ----------------------------------------- """)
 print(Style.RESET_ALL)
 print(Fore.YELLOW)
