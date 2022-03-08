@@ -14,7 +14,7 @@ LuckyLuke is a script for scanning systems or websites and finding vulnerabiliti
       _________________________________________
        Coded by ertanszr. Please use only
        educational purpose. Not use illegally.
-                 github.com/ertanszr
+                 github.com/ertanszr-git
                  twitter.com/ertanszr
        ----------------------------------------- 
 
