@@ -18,7 +18,7 @@ print("""                        v2.0
       _________________________________________
        Coded by ertanszr. Please use only
        educational purpose. Not use illegally.
-                 github.com/ertanszr
+                 github.com/ertanszr-git
                  twitter.com/ertanszr
        ----------------------------------------- """)
 print(Style.RESET_ALL)
