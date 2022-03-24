@@ -1,4 +1,4 @@
-# LuckyLuke
+# Easy Vulnerability Scanner - LuckyLuke
 
 LuckyLuke is a script for scanning systems or websites and finding vulnerabilities very easy.
 ```
