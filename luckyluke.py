@@ -14,7 +14,7 @@ print(Fore.YELLOW)
 os.system("figlet    Lucky Luke")
 print(Style.RESET_ALL)
 print(Fore.RED)
-print("""                        v2.0
+print("""                        v1.0
       _________________________________________
        Coded by ertanszr. Please use only
        educational purpose. Not use illegally.
